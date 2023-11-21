@@ -1,12 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Vector2D/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Vector2D.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vector2D.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Vector2D/1.0.0": {
+      "type": "project",
+      "path": "../Vector2D/Vector2D.csproj",
+      "msbuildProject": "../Vector2D/Vector2D.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS8Skeleton\\Vector2D\\Vector2D.csproj"
+      "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS8Skeleton\\Vector2D\\Vector2D.csproj",
+      "Vector2D >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -44,6 +62,9 @@
           "projectReferences": {
             "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS8Skeleton\\Vector2D\\Vector2D.csproj": {
               "projectPath": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS8Skeleton\\Vector2D\\Vector2D.csproj"
+            },
+            "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Snake\\Vector2D\\Vector2D.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Snake\\Vector2D\\Vector2D.csproj"
             }
           }
         }

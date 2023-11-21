@@ -617,7 +617,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS8Skeleton\\Vector2D\\Vector2D.csproj": "1.0.0"
+          "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS8Skeleton\\Vector2D\\Vector2D.csproj": "1.0.0",
+          "Vector2D": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Model.dll": {}
@@ -637,6 +638,16 @@
         },
         "runtime": {
           "bin/placeholder/NetworkTestHelper.dll": {}
+        }
+      },
+      "Vector2D/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Vector2D.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vector2D.dll": {}
         }
       }
     }
@@ -2348,6 +2359,11 @@
       "type": "project",
       "path": "../NetworkTestHelper/NetworkTestHelper.csproj",
       "msbuildProject": "../NetworkTestHelper/NetworkTestHelper.csproj"
+    },
+    "Vector2D/1.0.0": {
+      "type": "project",
+      "path": "../Vector2D/Vector2D.csproj",
+      "msbuildProject": "../Vector2D/Vector2D.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2359,6 +2375,7 @@
       "Microsoft.NET.Test.Sdk >= 17.6.0",
       "Model >= 1.0.0",
       "NetworkTestHelper >= 1.0.0",
+      "Vector2D >= 1.0.0",
       "coverlet.collector >= 3.2.0"
     ]
   },
@@ -2406,6 +2423,9 @@
             },
             "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Snake\\NetworkTestHelper\\NetworkTestHelper.csproj": {
               "projectPath": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Snake\\NetworkTestHelper\\NetworkTestHelper.csproj"
+            },
+            "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Snake\\Vector2D\\Vector2D.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Snake\\Vector2D\\Vector2D.csproj"
             }
           }
         }

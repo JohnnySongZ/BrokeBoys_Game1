@@ -6,13 +6,24 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS8Skeleton\\Vector2D\\Vector2D.csproj": "1.0.0"
+          "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS8Skeleton\\Vector2D\\Vector2D.csproj": "1.0.0",
+          "Vector2D": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Model.dll": {}
         },
         "runtime": {
           "bin/placeholder/Model.dll": {}
+        }
+      },
+      "Vector2D/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Vector2D.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vector2D.dll": {}
         }
       }
     }
@@ -22,6 +33,11 @@
       "type": "project",
       "path": "../model/Model.csproj",
       "msbuildProject": "../model/Model.csproj"
+    },
+    "Vector2D/1.0.0": {
+      "type": "project",
+      "path": "../Vector2D/Vector2D.csproj",
+      "msbuildProject": "../Vector2D/Vector2D.csproj"
     }
   },
   "projectFileDependencyGroups": {

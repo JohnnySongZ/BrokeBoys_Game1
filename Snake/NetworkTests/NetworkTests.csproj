@@ -21,6 +21,7 @@
     <ProjectReference Include="..\GameController\GameController.csproj" />
     <ProjectReference Include="..\model\Model.csproj" />
     <ProjectReference Include="..\NetworkTestHelper\NetworkTestHelper.csproj" />
+    <ProjectReference Include="..\Vector2D\Vector2D.csproj" />
   </ItemGroup>
 
 </Project>

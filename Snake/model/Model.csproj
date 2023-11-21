@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Examples\PS8Skeleton\Vector2D\Vector2D.csproj" />
+    <ProjectReference Include="..\Vector2D\Vector2D.csproj" />
   </ItemGroup>
 
 </Project>

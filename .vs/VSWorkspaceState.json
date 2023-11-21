@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Snake",
-    "\\Snake\\NetworkTestHelper"
+    ""
   ],
-  "SelectedNode": "\\Snake\\Snake.sln",
+  "SelectedNode": "\\Snake.sln",
   "PreviewInSolutionExplorer": false
 }
