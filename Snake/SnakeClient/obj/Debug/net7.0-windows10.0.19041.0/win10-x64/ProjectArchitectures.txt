@@ -1,0 +1,1 @@
+C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\SnakeClient.csproj;x64

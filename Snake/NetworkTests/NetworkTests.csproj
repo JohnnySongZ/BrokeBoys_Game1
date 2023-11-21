@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Examples\PS7Skeleton\NetworkController\NetworkController.csproj" />
     <ProjectReference Include="..\GameController\GameController.csproj" />
+    <ProjectReference Include="..\model\Model.csproj" />
     <ProjectReference Include="..\NetworkTestHelper\NetworkTestHelper.csproj" />
   </ItemGroup>
 

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "dgSpecHash": "2S0RU13LRP7Cx8rDPZ1s0SdbXNdts1NsY8FXLG+QvnFrFhUn9lxS4TvJOLYq7zHD5VxV5EXR6AKz5PiqySEW8w==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Snake\\SnakeClient\\SnakeClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.logging.debug\\7.0.0\\microsoft.extensions.logging.debug.7.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.graphics.win2d\\1.0.5.1\\microsoft.graphics.win2d.1.0.5.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.maui.graphics\\7.0.92\\microsoft.maui.graphics.7.0.92.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.92\\microsoft.maui.graphics.win2d.winui.desktop.7.0.92.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.29\\microsoft.windows.sdk.net.ref.10.0.19041.29.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.10\\microsoft.aspnetcore.app.runtime.win-x64.7.0.10.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.10\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.10.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.10\\microsoft.netcore.app.runtime.win-x64.7.0.10.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\PS7Skeleton\\NetworkController\\NetworkController.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\PS7Skeleton\\NetworkController\\NetworkController.csproj",
+      "targetGraphs": [
+        "net7.0-windows10.0.19041",
+        "net7.0-windows10.0.19041/win10-x64"
+      ]
+    }
+  ]
+}

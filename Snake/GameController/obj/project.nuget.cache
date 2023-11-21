@@ -1,8 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "x8BI0CCt+B50pJnrpkX3o5yvuPxvaa6PQgJxBxZ9MGrdXAkdGCkG03rYxDYUezktw3ul9PPFvGQsKNzfDEJ5uA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\Snake\\GameController\\GameController.csproj",
+  "dgSpecHash": "4a1j/N5g3HecVNuZI1d6H3MH4yEqLSCOlcqZlI/TZQ2K1mK+wmA2k9ugk/dwM2ygpR/DSaJAR/21iz98EKHgOg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Snake\\GameController\\GameController.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS7Skeleton\\NetworkController\\NetworkController.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS7Skeleton\\NetworkController\\NetworkController.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS8Skeleton\\Vector2D\\Vector2D.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS8Skeleton\\Vector2D\\Vector2D.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

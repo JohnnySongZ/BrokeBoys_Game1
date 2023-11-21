@@ -1,8 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "xIHL706mO9YuRzlDFYb6cf7i6EcUsT+5C+H8o46fj599ZS6JBIwtTHl1ljABMIdWK22VYObSM/MVZw+Yyefdjg==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\Snake\\NetworkTestHelper\\NetworkTestHelper.csproj",
+  "dgSpecHash": "T4y44yeQHNZmFVVQQXBUPpqGw2ZDW7DsCz86ko0aU0Woaq+vIHH+s6v08C/6gsF/f2GFBpPt4KOt1LoovcfGcg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Snake\\NetworkTestHelper\\NetworkTestHelper.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS7Skeleton\\NetworkController\\NetworkController.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS7Skeleton\\NetworkController\\NetworkController.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS8Skeleton\\Vector2D\\Vector2D.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS8Skeleton\\Vector2D\\Vector2D.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

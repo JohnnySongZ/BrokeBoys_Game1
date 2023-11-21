@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\GameController",
+    "\\NetworkTests"
   ],
+  "SelectedNode": "\\NetworkTests\\UnitTest1.cs",
   "PreviewInSolutionExplorer": false
 }

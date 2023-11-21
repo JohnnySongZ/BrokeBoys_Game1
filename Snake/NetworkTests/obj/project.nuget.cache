@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VcxnyKcAphT6SYernbjJ9qFIB5AeYDp3+riyTIuakRfSPKMTXRjKSLyBx9RKvx4pb0AB+BFnHrZ8eL4KIOZh/Q==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\Snake\\NetworkTests\\NetworkTests.csproj",
+  "dgSpecHash": "NLV0PCDg2KKu8UvHuL6kzWJ7ApIYlq/TXpSAx2cRnc/hDawxuGtfV2IaRvOhXnf5eC1vPXrrkE6r6ysCJJkImQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Snake\\NetworkTests\\NetworkTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
@@ -32,5 +32,24 @@
     "C:\\Users\\Usuario\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS7Skeleton\\NetworkController\\NetworkController.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS7Skeleton\\NetworkController\\NetworkController.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS8Skeleton\\Vector2D\\Vector2D.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS8Skeleton\\Vector2D\\Vector2D.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
