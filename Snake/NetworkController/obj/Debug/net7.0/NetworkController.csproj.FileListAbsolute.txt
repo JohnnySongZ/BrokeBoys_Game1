@@ -1,0 +1,4 @@
+C:\Users\Usuario\source\repos\Snake\NetworkController\obj\Debug\net7.0\NetworkController.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\Snake\NetworkController\obj\Debug\net7.0\NetworkController.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\Snake\NetworkController\obj\Debug\net7.0\NetworkController.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\Snake\NetworkController\obj\Debug\net7.0\NetworkController.csproj.CoreCompileInputs.cache

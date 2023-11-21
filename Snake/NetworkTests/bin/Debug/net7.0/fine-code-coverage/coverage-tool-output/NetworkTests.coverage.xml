@@ -1,0 +1,2414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.626" branch-rate="0.5483" version="1.9" timestamp="1700537869" lines-covered="442" lines-valid="706" branches-covered="68" branches-valid="124">
+  <sources>
+    <source>C:\Users\Usuario\</source>
+  </sources>
+  <packages>
+    <package name="GameController" line-rate="0" branch-rate="0" complexity="26">
+      <classes>
+        <class name="GameController.GameController" filename="source\repos\Snake\GameController\GameController.cs" line-rate="0" branch-rate="0" complexity="26">
+          <methods>
+            <method name="GetName" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="OnConnect" signature="(NetworkUtil.SocketState)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="19" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="38" hits="0" branch="False" />
+                <line number="40" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="44" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="41" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="MessageReceived" signature="(NetworkUtil.SocketState)" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="52" hits="0" branch="False" />
+                <line number="53" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="19" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="54" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="ProcessMessages" signature="(NetworkUtil.SocketState)" line-rate="0" branch-rate="0" complexity="10">
+              <lines>
+                <line number="61" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+                <line number="64" hits="0" branch="False" />
+                <line number="66" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="314" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="67" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
+                <line number="69" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="82" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="70" hits="0" branch="False" />
+                <line number="71" hits="0" branch="False" />
+                <line number="72" hits="0" branch="False" />
+                <line number="73" hits="0" branch="False" />
+                <line number="74" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="149" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="False" />
+                <line number="77" hits="0" branch="False" />
+                <line number="78" hits="0" branch="False" />
+                <line number="79" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="216" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="80" hits="0" branch="False" />
+                <line number="81" hits="0" branch="False" />
+                <line number="82" hits="0" branch="False" />
+                <line number="84" hits="0" branch="False" />
+                <line number="85" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="283" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="86" hits="0" branch="False" />
+                <line number="87" hits="0" branch="False" />
+                <line number="88" hits="0" branch="False" />
+                <line number="89" hits="0" branch="False" />
+                <line number="90" hits="0" branch="False" />
+                <line number="91" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="CloseServer" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="94" hits="0" branch="False" />
+                <line number="95" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="96" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="MessageEntered" signature="(System.String)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="99" hits="0" branch="False" />
+                <line number="100" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="15" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="101" hits="0" branch="False" />
+                <line number="102" hits="0" branch="False" />
+                <line number="103" hits="0" branch="False" />
+                <line number="104" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="19" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="38" hits="0" branch="False" />
+            <line number="40" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="44" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="41" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="19" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="54" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="66" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="314" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+            <line number="69" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="82" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="70" hits="0" branch="False" />
+            <line number="71" hits="0" branch="False" />
+            <line number="72" hits="0" branch="False" />
+            <line number="73" hits="0" branch="False" />
+            <line number="74" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="149" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="77" hits="0" branch="False" />
+            <line number="78" hits="0" branch="False" />
+            <line number="79" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="216" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="80" hits="0" branch="False" />
+            <line number="81" hits="0" branch="False" />
+            <line number="82" hits="0" branch="False" />
+            <line number="84" hits="0" branch="False" />
+            <line number="85" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="283" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="86" hits="0" branch="False" />
+            <line number="87" hits="0" branch="False" />
+            <line number="88" hits="0" branch="False" />
+            <line number="89" hits="0" branch="False" />
+            <line number="90" hits="0" branch="False" />
+            <line number="91" hits="0" branch="False" />
+            <line number="94" hits="0" branch="False" />
+            <line number="95" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="96" hits="0" branch="False" />
+            <line number="99" hits="0" branch="False" />
+            <line number="100" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="15" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="101" hits="0" branch="False" />
+            <line number="102" hits="0" branch="False" />
+            <line number="103" hits="0" branch="False" />
+            <line number="104" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Model" line-rate="0" branch-rate="1" complexity="24">
+      <classes>
+        <class name="Model.Powerup" filename="source\repos\Snake\model\Powerups.cs" line-rate="0" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_power" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_loc" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_died" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Int32,SnakeGame.Vector2D,System.Boolean)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Model.Snake" filename="source\repos\Snake\model\Snake.cs" line-rate="0" branch-rate="1" complexity="10">
+          <methods>
+            <method name="get_snake" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_body" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_dir" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_score" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_died" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_alive" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_dc" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_join" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Int32,System.String,System.Collections.Generic.List`1&lt;SnakeGame.Vector2D&gt;,SnakeGame.Vector2D,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Model.Wall" filename="source\repos\Snake\model\Wall.cs" line-rate="0" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_wall" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_p1" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_p2" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Int32,SnakeGame.Vector2D,SnakeGame.Vector2D)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Model.World" filename="source\repos\Snake\model\World.cs" line-rate="0" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_Snakes" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Walls" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Powerups" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_size" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Int32)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Collections.Generic.Dictionary`2&lt;System.Int32,Model.Snake&gt;,System.Collections.Generic.Dictionary`2&lt;System.Int32,Model.Wall&gt;,System.Collections.Generic.Dictionary`2&lt;System.Int32,Model.Powerup&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="NetworkController" line-rate="0.7681" branch-rate="0.9229999999999999" complexity="40">
+      <classes>
+        <class name="NetworkUtil.Networking" filename="source\repos\Examples\PS7Skeleton\NetworkController\Networking.cs" line-rate="0.7109000000000001" branch-rate="0.9229999999999999" complexity="30">
+          <methods>
+            <method name="StartServer" signature="(System.Action`1&lt;NetworkUtil.SocketState&gt;,System.Int32)" line-rate="0.75" branch-rate="1" complexity="2">
+              <lines>
+                <line number="33" hits="26" branch="False" />
+                <line number="34" hits="26" branch="False" />
+                <line number="37" hits="26" branch="False" />
+                <line number="38" hits="26" branch="False" />
+                <line number="39" hits="26" branch="False" />
+                <line number="40" hits="26" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="36" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="41" hits="26" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="47" hits="26" branch="False" />
+                <line number="48" hits="26" branch="False" />
+              </lines>
+            </method>
+            <method name="AcceptNewClient" signature="(System.IAsyncResult)" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="69" hits="52" branch="False" />
+                <line number="70" hits="52" branch="False" />
+                <line number="74" hits="52" branch="False" />
+                <line number="75" hits="52" branch="False" />
+                <line number="76" hits="26" branch="False" />
+                <line number="77" hits="26" branch="False" />
+                <line number="78" hits="26" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="65" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="79" hits="26" branch="False" />
+                <line number="80" hits="26" branch="False" />
+                <line number="81" hits="26" branch="False" />
+                <line number="82" hits="26" branch="False" />
+                <line number="83" hits="26" branch="False" />
+                <line number="84" hits="26" branch="False" />
+                <line number="85" hits="52" branch="False" />
+              </lines>
+            </method>
+            <method name="StopServer" signature="(System.Net.Sockets.TcpListener)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="91" hits="0" branch="False" />
+                <line number="92" hits="0" branch="False" />
+                <line number="93" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="ConnectToServer" signature="(System.Action`1&lt;NetworkUtil.SocketState&gt;,System.String,System.Int32)" line-rate="0.46149999999999997" branch-rate="0.9" complexity="10">
+              <lines>
+                <line number="116" hits="28" branch="False" />
+                <line number="119" hits="28" branch="False" />
+                <line number="123" hits="28" branch="False" />
+                <line number="124" hits="28" branch="False" />
+                <line number="125" hits="28" branch="False" />
+                <line number="126" hits="166" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="78" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="127" hits="55" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="56" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="128" hits="28" branch="False" />
+                <line number="129" hits="28" branch="False" />
+                <line number="130" hits="28" branch="False" />
+                <line number="131" hits="28" branch="False" />
+                <line number="134" hits="28" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="88" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="135" hits="0" branch="False" />
+                <line number="137" hits="0" branch="False" />
+                <line number="138" hits="0" branch="False" />
+                <line number="139" hits="0" branch="False" />
+                <line number="140" hits="0" branch="False" />
+                <line number="141" hits="0" branch="False" />
+                <line number="142" hits="0" branch="False" />
+                <line number="143" hits="28" branch="False" />
+                <line number="144" hits="0" branch="False" />
+                <line number="145" hits="0" branch="False" />
+                <line number="148" hits="0" branch="False" />
+                <line number="149" hits="0" branch="False" />
+                <line number="150" hits="0" branch="False" />
+                <line number="151" hits="0" branch="False" />
+                <line number="152" hits="0" branch="False" />
+                <line number="154" hits="0" branch="False" />
+                <line number="155" hits="0" branch="False" />
+                <line number="156" hits="0" branch="False" />
+                <line number="157" hits="0" branch="False" />
+                <line number="158" hits="0" branch="False" />
+                <line number="159" hits="0" branch="False" />
+                <line number="160" hits="0" branch="False" />
+                <line number="163" hits="28" branch="False" />
+                <line number="168" hits="28" branch="False" />
+                <line number="171" hits="28" branch="False" />
+                <line number="172" hits="28" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="261" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="173" hits="28" branch="False" />
+                <line number="174" hits="28" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="325" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="175" hits="1" branch="False" />
+                <line number="176" hits="1" branch="False" />
+                <line number="177" hits="1" branch="False" />
+                <line number="178" hits="28" branch="False" />
+                <line number="179" hits="0" branch="False" />
+                <line number="180" hits="0" branch="False" />
+                <line number="181" hits="0" branch="False" />
+                <line number="182" hits="0" branch="False" />
+                <line number="183" hits="0" branch="False" />
+                <line number="184" hits="0" branch="False" />
+                <line number="185" hits="0" branch="False" />
+                <line number="186" hits="28" branch="False" />
+              </lines>
+            </method>
+            <method name="ConnectedCallback" signature="(System.IAsyncResult)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="202" hits="28" branch="False" />
+                <line number="203" hits="28" branch="False" />
+                <line number="205" hits="28" branch="False" />
+                <line number="206" hits="28" branch="False" />
+                <line number="207" hits="26" branch="False" />
+                <line number="208" hits="26" branch="False" />
+                <line number="209" hits="2" branch="False" />
+                <line number="210" hits="2" branch="False" />
+                <line number="211" hits="2" branch="False" />
+                <line number="212" hits="2" branch="False" />
+                <line number="213" hits="2" branch="False" />
+                <line number="214" hits="28" branch="False" />
+              </lines>
+            </method>
+            <method name="GetData" signature="(NetworkUtil.SocketState)" line-rate="0.4545" branch-rate="1" complexity="2">
+              <lines>
+                <line number="233" hits="14430" branch="False" />
+                <line number="235" hits="14430" branch="False" />
+                <line number="236" hits="14430" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="27" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="237" hits="14430" branch="False" />
+                <line number="238" hits="0" branch="False" />
+                <line number="239" hits="0" branch="False" />
+                <line number="240" hits="0" branch="False" />
+                <line number="241" hits="0" branch="False" />
+                <line number="242" hits="0" branch="False" />
+                <line number="243" hits="0" branch="False" />
+                <line number="244" hits="14430" branch="False" />
+              </lines>
+            </method>
+            <method name="ReceiveCallback" signature="(System.IAsyncResult)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="264" hits="14430" branch="False" />
+                <line number="265" hits="14430" branch="False" />
+                <line number="267" hits="14430" branch="False" />
+                <line number="268" hits="14430" branch="False" />
+                <line number="269" hits="14422" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="33" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="270" hits="14420" branch="False" />
+                <line number="271" hits="14420" branch="False" />
+                <line number="272" hits="14420" branch="False" />
+                <line number="273" hits="14420" branch="False" />
+                <line number="274" hits="14420" branch="False" />
+                <line number="275" hits="14420" branch="False" />
+                <line number="276" hits="14422" branch="False" />
+                <line number="277" hits="14422" branch="False" />
+                <line number="278" hits="8" branch="False" />
+                <line number="279" hits="8" branch="False" />
+                <line number="280" hits="8" branch="False" />
+                <line number="281" hits="8" branch="False" />
+                <line number="282" hits="8" branch="False" />
+                <line number="283" hits="8" branch="False" />
+                <line number="284" hits="14430" branch="False" />
+              </lines>
+            </method>
+            <method name="Send" signature="(System.Net.Sockets.Socket,System.String)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="297" hits="22026" branch="False" />
+                <line number="298" hits="22026" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="299" hits="22022" branch="False" />
+                <line number="301" hits="22022" branch="False" />
+                <line number="302" hits="22022" branch="False" />
+                <line number="303" hits="22020" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="38" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="304" hits="22020" branch="False" />
+                <line number="306" hits="2" branch="False" />
+                <line number="307" hits="2" branch="False" />
+                <line number="308" hits="2" branch="False" />
+                <line number="309" hits="2" branch="False" />
+                <line number="313" hits="4" branch="False" />
+                <line number="314" hits="4" branch="False" />
+                <line number="315" hits="4" branch="False" />
+                <line number="317" hits="22026" branch="False" />
+              </lines>
+            </method>
+            <method name="SendCallback" signature="(System.IAsyncResult)" line-rate="0.6666" branch-rate="1" complexity="1">
+              <lines>
+                <line number="331" hits="22020" branch="False" />
+                <line number="333" hits="22020" branch="False" />
+                <line number="334" hits="22020" branch="False" />
+                <line number="335" hits="22020" branch="False" />
+                <line number="336" hits="22020" branch="False" />
+                <line number="337" hits="0" branch="False" />
+                <line number="338" hits="0" branch="False" />
+                <line number="340" hits="0" branch="False" />
+                <line number="341" hits="22020" branch="False" />
+              </lines>
+            </method>
+            <method name="SendAndClose" signature="(System.Net.Sockets.Socket,System.String)" line-rate="0.7333" branch-rate="1" complexity="4">
+              <lines>
+                <line number="356" hits="6" branch="False" />
+                <line number="357" hits="6" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="358" hits="4" branch="False" />
+                <line number="360" hits="4" branch="False" />
+                <line number="361" hits="4" branch="False" />
+                <line number="362" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="38" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="363" hits="4" branch="False" />
+                <line number="365" hits="0" branch="False" />
+                <line number="366" hits="0" branch="False" />
+                <line number="367" hits="0" branch="False" />
+                <line number="368" hits="0" branch="False" />
+                <line number="372" hits="2" branch="False" />
+                <line number="373" hits="2" branch="False" />
+                <line number="374" hits="2" branch="False" />
+                <line number="376" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="SendAndCloseCallback" signature="(System.IAsyncResult)" line-rate="0.7" branch-rate="1" complexity="1">
+              <lines>
+                <line number="392" hits="4" branch="False" />
+                <line number="394" hits="4" branch="False" />
+                <line number="395" hits="4" branch="False" />
+                <line number="396" hits="4" branch="False" />
+                <line number="397" hits="4" branch="False" />
+                <line number="398" hits="4" branch="False" />
+                <line number="399" hits="0" branch="False" />
+                <line number="400" hits="0" branch="False" />
+                <line number="402" hits="0" branch="False" />
+                <line number="403" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="33" hits="26" branch="False" />
+            <line number="34" hits="26" branch="False" />
+            <line number="37" hits="26" branch="False" />
+            <line number="38" hits="26" branch="False" />
+            <line number="39" hits="26" branch="False" />
+            <line number="40" hits="26" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="36" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="41" hits="26" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="47" hits="26" branch="False" />
+            <line number="48" hits="26" branch="False" />
+            <line number="69" hits="52" branch="False" />
+            <line number="70" hits="52" branch="False" />
+            <line number="74" hits="52" branch="False" />
+            <line number="75" hits="52" branch="False" />
+            <line number="76" hits="26" branch="False" />
+            <line number="77" hits="26" branch="False" />
+            <line number="78" hits="26" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="65" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="79" hits="26" branch="False" />
+            <line number="80" hits="26" branch="False" />
+            <line number="81" hits="26" branch="False" />
+            <line number="82" hits="26" branch="False" />
+            <line number="83" hits="26" branch="False" />
+            <line number="84" hits="26" branch="False" />
+            <line number="85" hits="52" branch="False" />
+            <line number="91" hits="0" branch="False" />
+            <line number="92" hits="0" branch="False" />
+            <line number="93" hits="0" branch="False" />
+            <line number="116" hits="28" branch="False" />
+            <line number="119" hits="28" branch="False" />
+            <line number="123" hits="28" branch="False" />
+            <line number="124" hits="28" branch="False" />
+            <line number="125" hits="28" branch="False" />
+            <line number="126" hits="166" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="78" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="127" hits="55" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="56" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="128" hits="28" branch="False" />
+            <line number="129" hits="28" branch="False" />
+            <line number="130" hits="28" branch="False" />
+            <line number="131" hits="28" branch="False" />
+            <line number="134" hits="28" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="88" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="135" hits="0" branch="False" />
+            <line number="137" hits="0" branch="False" />
+            <line number="138" hits="0" branch="False" />
+            <line number="139" hits="0" branch="False" />
+            <line number="140" hits="0" branch="False" />
+            <line number="141" hits="0" branch="False" />
+            <line number="142" hits="0" branch="False" />
+            <line number="143" hits="28" branch="False" />
+            <line number="144" hits="0" branch="False" />
+            <line number="145" hits="0" branch="False" />
+            <line number="148" hits="0" branch="False" />
+            <line number="149" hits="0" branch="False" />
+            <line number="150" hits="0" branch="False" />
+            <line number="151" hits="0" branch="False" />
+            <line number="152" hits="0" branch="False" />
+            <line number="154" hits="0" branch="False" />
+            <line number="155" hits="0" branch="False" />
+            <line number="156" hits="0" branch="False" />
+            <line number="157" hits="0" branch="False" />
+            <line number="158" hits="0" branch="False" />
+            <line number="159" hits="0" branch="False" />
+            <line number="160" hits="0" branch="False" />
+            <line number="163" hits="28" branch="False" />
+            <line number="168" hits="28" branch="False" />
+            <line number="171" hits="28" branch="False" />
+            <line number="172" hits="28" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="261" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="173" hits="28" branch="False" />
+            <line number="174" hits="28" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="325" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="175" hits="1" branch="False" />
+            <line number="176" hits="1" branch="False" />
+            <line number="177" hits="1" branch="False" />
+            <line number="178" hits="28" branch="False" />
+            <line number="179" hits="0" branch="False" />
+            <line number="180" hits="0" branch="False" />
+            <line number="181" hits="0" branch="False" />
+            <line number="182" hits="0" branch="False" />
+            <line number="183" hits="0" branch="False" />
+            <line number="184" hits="0" branch="False" />
+            <line number="185" hits="0" branch="False" />
+            <line number="186" hits="28" branch="False" />
+            <line number="202" hits="28" branch="False" />
+            <line number="203" hits="28" branch="False" />
+            <line number="205" hits="28" branch="False" />
+            <line number="206" hits="28" branch="False" />
+            <line number="207" hits="26" branch="False" />
+            <line number="208" hits="26" branch="False" />
+            <line number="209" hits="2" branch="False" />
+            <line number="210" hits="2" branch="False" />
+            <line number="211" hits="2" branch="False" />
+            <line number="212" hits="2" branch="False" />
+            <line number="213" hits="2" branch="False" />
+            <line number="214" hits="28" branch="False" />
+            <line number="233" hits="14430" branch="False" />
+            <line number="235" hits="14430" branch="False" />
+            <line number="236" hits="14430" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="27" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="237" hits="14430" branch="False" />
+            <line number="238" hits="0" branch="False" />
+            <line number="239" hits="0" branch="False" />
+            <line number="240" hits="0" branch="False" />
+            <line number="241" hits="0" branch="False" />
+            <line number="242" hits="0" branch="False" />
+            <line number="243" hits="0" branch="False" />
+            <line number="244" hits="14430" branch="False" />
+            <line number="264" hits="14430" branch="False" />
+            <line number="265" hits="14430" branch="False" />
+            <line number="267" hits="14430" branch="False" />
+            <line number="268" hits="14430" branch="False" />
+            <line number="269" hits="14422" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="33" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="270" hits="14420" branch="False" />
+            <line number="271" hits="14420" branch="False" />
+            <line number="272" hits="14420" branch="False" />
+            <line number="273" hits="14420" branch="False" />
+            <line number="274" hits="14420" branch="False" />
+            <line number="275" hits="14420" branch="False" />
+            <line number="276" hits="14422" branch="False" />
+            <line number="277" hits="14422" branch="False" />
+            <line number="278" hits="8" branch="False" />
+            <line number="279" hits="8" branch="False" />
+            <line number="280" hits="8" branch="False" />
+            <line number="281" hits="8" branch="False" />
+            <line number="282" hits="8" branch="False" />
+            <line number="283" hits="8" branch="False" />
+            <line number="284" hits="14430" branch="False" />
+            <line number="297" hits="22026" branch="False" />
+            <line number="298" hits="22026" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="299" hits="22022" branch="False" />
+            <line number="301" hits="22022" branch="False" />
+            <line number="302" hits="22022" branch="False" />
+            <line number="303" hits="22020" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="38" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="304" hits="22020" branch="False" />
+            <line number="306" hits="2" branch="False" />
+            <line number="307" hits="2" branch="False" />
+            <line number="308" hits="2" branch="False" />
+            <line number="309" hits="2" branch="False" />
+            <line number="313" hits="4" branch="False" />
+            <line number="314" hits="4" branch="False" />
+            <line number="315" hits="4" branch="False" />
+            <line number="317" hits="22026" branch="False" />
+            <line number="331" hits="22020" branch="False" />
+            <line number="333" hits="22020" branch="False" />
+            <line number="334" hits="22020" branch="False" />
+            <line number="335" hits="22020" branch="False" />
+            <line number="336" hits="22020" branch="False" />
+            <line number="337" hits="0" branch="False" />
+            <line number="338" hits="0" branch="False" />
+            <line number="340" hits="0" branch="False" />
+            <line number="341" hits="22020" branch="False" />
+            <line number="356" hits="6" branch="False" />
+            <line number="357" hits="6" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="358" hits="4" branch="False" />
+            <line number="360" hits="4" branch="False" />
+            <line number="361" hits="4" branch="False" />
+            <line number="362" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="38" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="363" hits="4" branch="False" />
+            <line number="365" hits="0" branch="False" />
+            <line number="366" hits="0" branch="False" />
+            <line number="367" hits="0" branch="False" />
+            <line number="368" hits="0" branch="False" />
+            <line number="372" hits="2" branch="False" />
+            <line number="373" hits="2" branch="False" />
+            <line number="374" hits="2" branch="False" />
+            <line number="376" hits="6" branch="False" />
+            <line number="392" hits="4" branch="False" />
+            <line number="394" hits="4" branch="False" />
+            <line number="395" hits="4" branch="False" />
+            <line number="396" hits="4" branch="False" />
+            <line number="397" hits="4" branch="False" />
+            <line number="398" hits="4" branch="False" />
+            <line number="399" hits="0" branch="False" />
+            <line number="400" hits="0" branch="False" />
+            <line number="402" hits="0" branch="False" />
+            <line number="403" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="NetworkUtil.Networking/ConnectionInfo" filename="source\repos\Examples\PS7Skeleton\NetworkController\Networking.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(System.Action`1&lt;NetworkUtil.SocketState&gt;,System.Net.Sockets.TcpListener)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="26" branch="False" />
+                <line number="16" hits="26" branch="False" />
+                <line number="17" hits="26" branch="False" />
+                <line number="18" hits="26" branch="False" />
+                <line number="19" hits="26" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="26" branch="False" />
+            <line number="16" hits="26" branch="False" />
+            <line number="17" hits="26" branch="False" />
+            <line number="18" hits="26" branch="False" />
+            <line number="19" hits="26" branch="False" />
+          </lines>
+        </class>
+        <class name="NetworkUtil.SocketState" filename="source\repos\Examples\PS7Skeleton\NetworkController\SocketState.cs" line-rate="0.9761" branch-rate="1" complexity="9">
+          <methods>
+            <method name="get_ErrorMessage" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="set_ErrorMessage" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="36" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ErrorOccurred" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="40" hits="14416" branch="False" />
+              </lines>
+            </method>
+            <method name="set_ErrorOccurred" signature="(System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="41" hits="90" branch="False" />
+              </lines>
+            </method>
+            <method name="GetData" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="102" hits="29469" branch="False" />
+                <line number="104" hits="29469" branch="False" />
+                <line number="105" hits="29469" branch="False" />
+                <line number="106" hits="29469" branch="False" />
+                <line number="107" hits="29469" branch="False" />
+                <line number="108" hits="29469" branch="False" />
+                <line number="109" hits="29469" branch="False" />
+              </lines>
+            </method>
+            <method name="RemoveData" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="118" hits="14384" branch="False" />
+                <line number="119" hits="14384" branch="False" />
+                <line number="120" hits="14384" branch="False" />
+                <line number="121" hits="14384" branch="False" />
+                <line number="122" hits="14384" branch="False" />
+                <line number="123" hits="14384" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Action`1&lt;NetworkUtil.SocketState&gt;,System.Net.Sockets.Socket)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="82" branch="False" />
+                <line number="21" hits="82" branch="False" />
+                <line number="66" hits="54" branch="False" />
+                <line number="67" hits="54" branch="False" />
+                <line number="68" hits="54" branch="False" />
+                <line number="69" hits="54" branch="False" />
+                <line number="70" hits="54" branch="False" />
+                <line number="71" hits="54" branch="False" />
+                <line number="72" hits="54" branch="False" />
+                <line number="73" hits="54" branch="False" />
+                <line number="74" hits="54" branch="False" />
+                <line number="75" hits="54" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Action`1&lt;NetworkUtil.SocketState&gt;,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="83" hits="28" branch="False" />
+                <line number="84" hits="28" branch="False" />
+                <line number="86" hits="28" branch="False" />
+                <line number="87" hits="28" branch="False" />
+                <line number="88" hits="28" branch="False" />
+                <line number="89" hits="28" branch="False" />
+                <line number="90" hits="28" branch="False" />
+                <line number="91" hits="28" branch="False" />
+                <line number="92" hits="28" branch="False" />
+                <line number="93" hits="28" branch="False" />
+                <line number="94" hits="28" branch="False" />
+              </lines>
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="36" branch="False" />
+            <line number="40" hits="14416" branch="False" />
+            <line number="41" hits="90" branch="False" />
+            <line number="102" hits="29469" branch="False" />
+            <line number="104" hits="29469" branch="False" />
+            <line number="105" hits="29469" branch="False" />
+            <line number="106" hits="29469" branch="False" />
+            <line number="107" hits="29469" branch="False" />
+            <line number="108" hits="29469" branch="False" />
+            <line number="109" hits="29469" branch="False" />
+            <line number="118" hits="14384" branch="False" />
+            <line number="119" hits="14384" branch="False" />
+            <line number="120" hits="14384" branch="False" />
+            <line number="121" hits="14384" branch="False" />
+            <line number="122" hits="14384" branch="False" />
+            <line number="123" hits="14384" branch="False" />
+            <line number="20" hits="82" branch="False" />
+            <line number="21" hits="82" branch="False" />
+            <line number="66" hits="54" branch="False" />
+            <line number="67" hits="54" branch="False" />
+            <line number="68" hits="54" branch="False" />
+            <line number="69" hits="54" branch="False" />
+            <line number="70" hits="54" branch="False" />
+            <line number="71" hits="54" branch="False" />
+            <line number="72" hits="54" branch="False" />
+            <line number="73" hits="54" branch="False" />
+            <line number="74" hits="54" branch="False" />
+            <line number="75" hits="54" branch="False" />
+            <line number="83" hits="28" branch="False" />
+            <line number="84" hits="28" branch="False" />
+            <line number="86" hits="28" branch="False" />
+            <line number="87" hits="28" branch="False" />
+            <line number="88" hits="28" branch="False" />
+            <line number="89" hits="28" branch="False" />
+            <line number="90" hits="28" branch="False" />
+            <line number="91" hits="28" branch="False" />
+            <line number="92" hits="28" branch="False" />
+            <line number="93" hits="28" branch="False" />
+            <line number="94" hits="28" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="NetworkTestHelper" line-rate="1" branch-rate="1" complexity="6">
+      <classes>
+        <class name="NetworkUtil.NetworkTestHelper" filename="source\repos\Snake\NetworkTestHelper\NetworkTestHelper.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="WaitForOrTimeout" signature="(System.Func`1&lt;System.Boolean&gt;,System.Int32)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="22" hits="59" branch="False" />
+                <line number="23" hits="59" branch="False" />
+                <line number="24" hits="2106" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="37" type="jump" coverage="100%" />
+                    <condition number="26" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="25" hits="2047" branch="False" />
+                <line number="26" hits="2047" branch="False" />
+                <line number="28" hits="2047" branch="False" />
+                <line number="29" hits="2047" branch="False" />
+                <line number="30" hits="59" branch="False" />
+              </lines>
+            </method>
+            <method name="SetupSingleConnectionTest" signature="(System.Net.Sockets.TcpListener&amp;,NetworkUtil.SocketState&amp;,NetworkUtil.SocketState&amp;)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="34" hits="25" branch="False" />
+                <line number="35" hits="25" branch="False" />
+                <line number="36" hits="25" branch="False" />
+                <line number="48" hits="25" branch="False" />
+                <line number="49" hits="25" branch="False" />
+                <line number="51" hits="75" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="6" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="52" hits="25" branch="False" />
+                <line number="53" hits="25" branch="False" />
+                <line number="54" hits="25" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="59" branch="False" />
+            <line number="23" hits="59" branch="False" />
+            <line number="24" hits="2106" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="37" type="jump" coverage="100%" />
+                <condition number="26" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="25" hits="2047" branch="False" />
+            <line number="26" hits="2047" branch="False" />
+            <line number="28" hits="2047" branch="False" />
+            <line number="29" hits="2047" branch="False" />
+            <line number="30" hits="59" branch="False" />
+            <line number="34" hits="25" branch="False" />
+            <line number="35" hits="25" branch="False" />
+            <line number="36" hits="25" branch="False" />
+            <line number="48" hits="25" branch="False" />
+            <line number="49" hits="25" branch="False" />
+            <line number="51" hits="75" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="6" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="52" hits="25" branch="False" />
+            <line number="53" hits="25" branch="False" />
+            <line number="54" hits="25" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="NetworkTests" line-rate="0.9922" branch-rate="0.826" complexity="63">
+      <classes>
+        <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\17.6.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="NetworkUtil.NetworkTests" filename="source\repos\Snake\NetworkTests\UnitTest1.cs" line-rate="1" branch-rate="0.8" complexity="51">
+          <methods>
+            <method name="Init" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="28" branch="False" />
+                <line number="22" hits="28" branch="False" />
+                <line number="23" hits="28" branch="False" />
+                <line number="24" hits="28" branch="False" />
+                <line number="25" hits="28" branch="False" />
+              </lines>
+            </method>
+            <method name="Cleanup" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="28" branch="False" />
+                <line number="31" hits="28" branch="False" />
+                <line number="32" hits="28" branch="False" />
+              </lines>
+            </method>
+            <method name="StopTestServer" signature="(System.Net.Sockets.TcpListener,NetworkUtil.SocketState,NetworkUtil.SocketState)" line-rate="1" branch-rate="0.7777" complexity="18">
+              <lines>
+                <line number="36" hits="28" branch="False" />
+                <line number="38" hits="28" branch="False" />
+                <line number="40" hits="28" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="3" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="41" hits="28" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="15" type="jump" coverage="100%" />
+                    <condition number="26" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="42" hits="18" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="39" type="jump" coverage="100%" />
+                    <condition number="50" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="43" hits="18" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="62" type="jump" coverage="100%" />
+                    <condition number="73" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="44" hits="18" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="86" type="jump" coverage="100%" />
+                    <condition number="97" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="45" hits="18" branch="False" />
+                <line number="49" hits="30" branch="False" />
+                <line number="50" hits="28" branch="False" />
+              </lines>
+            </method>
+            <method name="SetupTestConnections" signature="(System.Boolean,System.Net.Sockets.TcpListener&amp;,NetworkUtil.SocketState&amp;,NetworkUtil.SocketState&amp;)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="56" hits="24" branch="False" />
+                <line number="58" hits="24" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="4" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="59" hits="12" branch="False" />
+                <line number="60" hits="12" branch="False" />
+                <line number="61" hits="12" branch="False" />
+                <line number="62" hits="12" branch="False" />
+                <line number="63" hits="12" branch="False" />
+                <line number="64" hits="12" branch="False" />
+                <line number="66" hits="12" branch="False" />
+                <line number="67" hits="12" branch="False" />
+                <line number="68" hits="12" branch="False" />
+                <line number="69" hits="12" branch="False" />
+                <line number="70" hits="12" branch="False" />
+                <line number="71" hits="12" branch="False" />
+                <line number="73" hits="24" branch="False" />
+                <line number="74" hits="24" branch="False" />
+                <line number="75" hits="24" branch="False" />
+                <line number="76" hits="24" branch="False" />
+                <line number="77" hits="24" branch="False" />
+              </lines>
+            </method>
+            <method name="TestConnect" signature="()" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="83" hits="1" branch="False" />
+                <line number="84" hits="1" branch="False" />
+                <line number="85" hits="1" branch="False" />
+                <line number="86" hits="1" branch="False" />
+                <line number="88" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+                <line number="91" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="115" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="92" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="TestConnectNoServer" signature="()" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="97" hits="1" branch="False" />
+                <line number="98" hits="1" branch="False" />
+                <line number="107" hits="1" branch="False" />
+                <line number="108" hits="3" branch="False" />
+                <line number="110" hits="1" branch="False" />
+                <line number="111" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="92" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="112" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="TestConnectTimeout" signature="()" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="117" hits="1" branch="False" />
+                <line number="118" hits="1" branch="False" />
+                <line number="126" hits="1" branch="False" />
+                <line number="129" hits="3" branch="False" />
+                <line number="131" hits="1" branch="False" />
+                <line number="132" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="92" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="133" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="TestConnectCallsDelegate" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="138" hits="1" branch="False" />
+                <line number="139" hits="1" branch="False" />
+                <line number="140" hits="1" branch="False" />
+                <line number="154" hits="1" branch="False" />
+                <line number="155" hits="1" branch="False" />
+                <line number="156" hits="2" branch="False" />
+                <line number="157" hits="3" branch="False" />
+                <line number="159" hits="1" branch="False" />
+                <line number="160" hits="1" branch="False" />
+                <line number="161" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="TestDisconnectLocalThenSend" signature="(System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="178" hits="2" branch="False" />
+                <line number="179" hits="2" branch="False" />
+                <line number="181" hits="2" branch="False" />
+                <line number="184" hits="2" branch="False" />
+                <line number="185" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="TestSendTinyMessage" signature="(System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="200" hits="2" branch="False" />
+                <line number="201" hits="2" branch="False" />
+                <line number="204" hits="2" branch="False" />
+                <line number="205" hits="6" branch="False" />
+                <line number="207" hits="2" branch="False" />
+                <line number="209" hits="2" branch="False" />
+                <line number="214" hits="5" branch="False" />
+                <line number="216" hits="2" branch="False" />
+                <line number="217" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="TestNoEventLoop" signature="(System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="224" hits="2" branch="False" />
+                <line number="225" hits="2" branch="False" />
+                <line number="227" hits="2" branch="False" />
+                <line number="231" hits="4" branch="False" />
+                <line number="233" hits="2" branch="False" />
+                <line number="234" hits="2" branch="False" />
+                <line number="238" hits="6" branch="False" />
+                <line number="241" hits="2" branch="False" />
+                <line number="242" hits="672" branch="False" />
+                <line number="244" hits="2" branch="False" />
+                <line number="245" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="TestDelayedSends" signature="(System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="252" hits="2" branch="False" />
+                <line number="253" hits="2" branch="False" />
+                <line number="256" hits="2" branch="False" />
+                <line number="257" hits="10" branch="False" />
+                <line number="259" hits="2" branch="False" />
+                <line number="260" hits="2" branch="False" />
+                <line number="264" hits="5" branch="False" />
+                <line number="266" hits="2" branch="False" />
+                <line number="267" hits="2" branch="False" />
+                <line number="271" hits="4" branch="False" />
+                <line number="273" hits="2" branch="False" />
+                <line number="274" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="TestEventLoop" signature="(System.Boolean)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="281" hits="2" branch="False" />
+                <line number="282" hits="2" branch="False" />
+                <line number="284" hits="2" branch="False" />
+                <line number="287" hits="2" branch="False" />
+                <line number="288" hits="6" branch="False" />
+                <line number="289" hits="6" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="290" hits="2" branch="False" />
+                <line number="291" hits="4" branch="False" />
+                <line number="292" hits="4" branch="False" />
+                <line number="293" hits="8" branch="False" />
+                <line number="295" hits="2" branch="False" />
+                <line number="296" hits="2" branch="False" />
+                <line number="297" hits="6" branch="False" />
+                <line number="299" hits="2" branch="False" />
+                <line number="300" hits="5" branch="False" />
+                <line number="302" hits="2" branch="False" />
+                <line number="303" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="TestChangeOnNetworkAction" signature="(System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="310" hits="2" branch="False" />
+                <line number="311" hits="2" branch="False" />
+                <line number="313" hits="2" branch="False" />
+                <line number="314" hits="2" branch="False" />
+                <line number="332" hits="2" branch="False" />
+                <line number="334" hits="2" branch="False" />
+                <line number="335" hits="2" branch="False" />
+                <line number="336" hits="4" branch="False" />
+                <line number="338" hits="2" branch="False" />
+                <line number="339" hits="6" branch="False" />
+                <line number="341" hits="2" branch="False" />
+                <line number="342" hits="2" branch="False" />
+                <line number="343" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="TestReceiveRemovesAll" signature="(System.Boolean)" line-rate="1" branch-rate="0.8332999999999999" complexity="6">
+              <lines>
+                <line number="350" hits="2" branch="False" />
+                <line number="351" hits="2" branch="False" />
+                <line number="353" hits="2" branch="False" />
+                <line number="364" hits="2" branch="False" />
+                <line number="367" hits="2" branch="False" />
+                <line number="369" hits="40004" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="144" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="370" hits="20000" branch="False" />
+                <line number="371" hits="20000" branch="False" />
+                <line number="372" hits="20000" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="113" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="373" hits="20000" branch="False" />
+                <line number="375" hits="7" branch="False" />
+                <line number="379" hits="2" branch="False" />
+                <line number="380" hits="40004" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="221" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="381" hits="20000" branch="False" />
+                <line number="382" hits="20000" branch="False" />
+                <line number="383" hits="20000" branch="False" />
+                <line number="384" hits="20000" branch="False" />
+                <line number="386" hits="2" branch="False" />
+                <line number="387" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="TestReceiveRemovesPartial" signature="(System.Boolean)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="394" hits="2" branch="False" />
+                <line number="395" hits="2" branch="False" />
+                <line number="400" hits="2" branch="False" />
+                <line number="402" hits="2" branch="False" />
+                <line number="414" hits="2" branch="False" />
+                <line number="417" hits="2" branch="False" />
+                <line number="419" hits="4004" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="134" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="420" hits="2000" branch="False" />
+                <line number="421" hits="2000" branch="False" />
+                <line number="422" hits="2000" branch="False" />
+                <line number="425" hits="672" branch="False" />
+                <line number="427" hits="2" branch="False" />
+                <line number="431" hits="2" branch="False" />
+                <line number="432" hits="4004" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="245" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="433" hits="2000" branch="False" />
+                <line number="434" hits="2000" branch="False" />
+                <line number="435" hits="2000" branch="False" />
+                <line number="437" hits="2" branch="False" />
+                <line number="438" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="TestReceiveHugeMessage" signature="(System.Boolean)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="445" hits="2" branch="False" />
+                <line number="446" hits="2" branch="False" />
+                <line number="448" hits="2" branch="False" />
+                <line number="449" hits="18" branch="False" />
+                <line number="450" hits="18" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="451" hits="2" branch="False" />
+                <line number="452" hits="16" branch="False" />
+                <line number="453" hits="20" branch="False" />
+                <line number="455" hits="2" branch="False" />
+                <line number="457" hits="2" branch="False" />
+                <line number="458" hits="2" branch="False" />
+                <line number="460" hits="2" branch="False" />
+                <line number="462" hits="6" branch="False" />
+                <line number="464" hits="2" branch="False" />
+                <line number="465" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="TestDelayedSendAndClose" signature="(System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="481" hits="2" branch="False" />
+                <line number="482" hits="2" branch="False" />
+                <line number="485" hits="2" branch="False" />
+                <line number="486" hits="10" branch="False" />
+                <line number="488" hits="2" branch="False" />
+                <line number="489" hits="2" branch="False" />
+                <line number="493" hits="4" branch="False" />
+                <line number="495" hits="2" branch="False" />
+                <line number="496" hits="2" branch="False" />
+                <line number="500" hits="672" branch="False" />
+                <line number="502" hits="2" branch="False" />
+                <line number="503" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="TestDelayedSendAndCloseSocketAlreadyClosed" signature="(System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="513" hits="2" branch="False" />
+                <line number="514" hits="2" branch="False" />
+                <line number="517" hits="2" branch="False" />
+                <line number="518" hits="6" branch="False" />
+                <line number="520" hits="2" branch="False" />
+                <line number="521" hits="2" branch="False" />
+                <line number="525" hits="5" branch="False" />
+                <line number="527" hits="2" branch="False" />
+                <line number="528" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="TestSendNullData" signature="(System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="538" hits="2" branch="False" />
+                <line number="539" hits="2" branch="False" />
+                <line number="542" hits="2" branch="False" />
+                <line number="543" hits="2" branch="False" />
+                <line number="545" hits="2" branch="False" />
+                <line number="546" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="28" branch="False" />
+            <line number="22" hits="28" branch="False" />
+            <line number="23" hits="28" branch="False" />
+            <line number="24" hits="28" branch="False" />
+            <line number="25" hits="28" branch="False" />
+            <line number="30" hits="28" branch="False" />
+            <line number="31" hits="28" branch="False" />
+            <line number="32" hits="28" branch="False" />
+            <line number="36" hits="28" branch="False" />
+            <line number="38" hits="28" branch="False" />
+            <line number="40" hits="28" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="3" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="41" hits="28" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="15" type="jump" coverage="100%" />
+                <condition number="26" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="42" hits="18" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="39" type="jump" coverage="100%" />
+                <condition number="50" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="43" hits="18" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="62" type="jump" coverage="100%" />
+                <condition number="73" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="44" hits="18" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="86" type="jump" coverage="100%" />
+                <condition number="97" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="45" hits="18" branch="False" />
+            <line number="49" hits="30" branch="False" />
+            <line number="50" hits="28" branch="False" />
+            <line number="56" hits="24" branch="False" />
+            <line number="58" hits="24" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="4" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="59" hits="12" branch="False" />
+            <line number="60" hits="12" branch="False" />
+            <line number="61" hits="12" branch="False" />
+            <line number="62" hits="12" branch="False" />
+            <line number="63" hits="12" branch="False" />
+            <line number="64" hits="12" branch="False" />
+            <line number="66" hits="12" branch="False" />
+            <line number="67" hits="12" branch="False" />
+            <line number="68" hits="12" branch="False" />
+            <line number="69" hits="12" branch="False" />
+            <line number="70" hits="12" branch="False" />
+            <line number="71" hits="12" branch="False" />
+            <line number="73" hits="24" branch="False" />
+            <line number="74" hits="24" branch="False" />
+            <line number="75" hits="24" branch="False" />
+            <line number="76" hits="24" branch="False" />
+            <line number="77" hits="24" branch="False" />
+            <line number="83" hits="1" branch="False" />
+            <line number="84" hits="1" branch="False" />
+            <line number="85" hits="1" branch="False" />
+            <line number="86" hits="1" branch="False" />
+            <line number="88" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="91" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="115" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="92" hits="1" branch="False" />
+            <line number="97" hits="1" branch="False" />
+            <line number="98" hits="1" branch="False" />
+            <line number="107" hits="1" branch="False" />
+            <line number="108" hits="3" branch="False" />
+            <line number="110" hits="1" branch="False" />
+            <line number="111" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="92" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="112" hits="1" branch="False" />
+            <line number="117" hits="1" branch="False" />
+            <line number="118" hits="1" branch="False" />
+            <line number="126" hits="1" branch="False" />
+            <line number="129" hits="3" branch="False" />
+            <line number="131" hits="1" branch="False" />
+            <line number="132" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="92" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="133" hits="1" branch="False" />
+            <line number="138" hits="1" branch="False" />
+            <line number="139" hits="1" branch="False" />
+            <line number="140" hits="1" branch="False" />
+            <line number="154" hits="1" branch="False" />
+            <line number="155" hits="1" branch="False" />
+            <line number="156" hits="2" branch="False" />
+            <line number="157" hits="3" branch="False" />
+            <line number="159" hits="1" branch="False" />
+            <line number="160" hits="1" branch="False" />
+            <line number="161" hits="1" branch="False" />
+            <line number="178" hits="2" branch="False" />
+            <line number="179" hits="2" branch="False" />
+            <line number="181" hits="2" branch="False" />
+            <line number="184" hits="2" branch="False" />
+            <line number="185" hits="2" branch="False" />
+            <line number="200" hits="2" branch="False" />
+            <line number="201" hits="2" branch="False" />
+            <line number="204" hits="2" branch="False" />
+            <line number="205" hits="6" branch="False" />
+            <line number="207" hits="2" branch="False" />
+            <line number="209" hits="2" branch="False" />
+            <line number="214" hits="5" branch="False" />
+            <line number="216" hits="2" branch="False" />
+            <line number="217" hits="2" branch="False" />
+            <line number="224" hits="2" branch="False" />
+            <line number="225" hits="2" branch="False" />
+            <line number="227" hits="2" branch="False" />
+            <line number="231" hits="4" branch="False" />
+            <line number="233" hits="2" branch="False" />
+            <line number="234" hits="2" branch="False" />
+            <line number="238" hits="6" branch="False" />
+            <line number="241" hits="2" branch="False" />
+            <line number="242" hits="672" branch="False" />
+            <line number="244" hits="2" branch="False" />
+            <line number="245" hits="2" branch="False" />
+            <line number="252" hits="2" branch="False" />
+            <line number="253" hits="2" branch="False" />
+            <line number="256" hits="2" branch="False" />
+            <line number="257" hits="10" branch="False" />
+            <line number="259" hits="2" branch="False" />
+            <line number="260" hits="2" branch="False" />
+            <line number="264" hits="5" branch="False" />
+            <line number="266" hits="2" branch="False" />
+            <line number="267" hits="2" branch="False" />
+            <line number="271" hits="4" branch="False" />
+            <line number="273" hits="2" branch="False" />
+            <line number="274" hits="2" branch="False" />
+            <line number="281" hits="2" branch="False" />
+            <line number="282" hits="2" branch="False" />
+            <line number="284" hits="2" branch="False" />
+            <line number="287" hits="2" branch="False" />
+            <line number="288" hits="6" branch="False" />
+            <line number="289" hits="6" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="290" hits="2" branch="False" />
+            <line number="291" hits="4" branch="False" />
+            <line number="292" hits="4" branch="False" />
+            <line number="293" hits="8" branch="False" />
+            <line number="295" hits="2" branch="False" />
+            <line number="296" hits="2" branch="False" />
+            <line number="297" hits="6" branch="False" />
+            <line number="299" hits="2" branch="False" />
+            <line number="300" hits="5" branch="False" />
+            <line number="302" hits="2" branch="False" />
+            <line number="303" hits="2" branch="False" />
+            <line number="310" hits="2" branch="False" />
+            <line number="311" hits="2" branch="False" />
+            <line number="313" hits="2" branch="False" />
+            <line number="314" hits="2" branch="False" />
+            <line number="332" hits="2" branch="False" />
+            <line number="334" hits="2" branch="False" />
+            <line number="335" hits="2" branch="False" />
+            <line number="336" hits="4" branch="False" />
+            <line number="338" hits="2" branch="False" />
+            <line number="339" hits="6" branch="False" />
+            <line number="341" hits="2" branch="False" />
+            <line number="342" hits="2" branch="False" />
+            <line number="343" hits="2" branch="False" />
+            <line number="350" hits="2" branch="False" />
+            <line number="351" hits="2" branch="False" />
+            <line number="353" hits="2" branch="False" />
+            <line number="364" hits="2" branch="False" />
+            <line number="367" hits="2" branch="False" />
+            <line number="369" hits="40004" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="144" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="370" hits="20000" branch="False" />
+            <line number="371" hits="20000" branch="False" />
+            <line number="372" hits="20000" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="113" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="373" hits="20000" branch="False" />
+            <line number="375" hits="7" branch="False" />
+            <line number="379" hits="2" branch="False" />
+            <line number="380" hits="40004" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="221" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="381" hits="20000" branch="False" />
+            <line number="382" hits="20000" branch="False" />
+            <line number="383" hits="20000" branch="False" />
+            <line number="384" hits="20000" branch="False" />
+            <line number="386" hits="2" branch="False" />
+            <line number="387" hits="2" branch="False" />
+            <line number="394" hits="2" branch="False" />
+            <line number="395" hits="2" branch="False" />
+            <line number="400" hits="2" branch="False" />
+            <line number="402" hits="2" branch="False" />
+            <line number="414" hits="2" branch="False" />
+            <line number="417" hits="2" branch="False" />
+            <line number="419" hits="4004" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="134" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="420" hits="2000" branch="False" />
+            <line number="421" hits="2000" branch="False" />
+            <line number="422" hits="2000" branch="False" />
+            <line number="425" hits="672" branch="False" />
+            <line number="427" hits="2" branch="False" />
+            <line number="431" hits="2" branch="False" />
+            <line number="432" hits="4004" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="245" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="433" hits="2000" branch="False" />
+            <line number="434" hits="2000" branch="False" />
+            <line number="435" hits="2000" branch="False" />
+            <line number="437" hits="2" branch="False" />
+            <line number="438" hits="2" branch="False" />
+            <line number="445" hits="2" branch="False" />
+            <line number="446" hits="2" branch="False" />
+            <line number="448" hits="2" branch="False" />
+            <line number="449" hits="18" branch="False" />
+            <line number="450" hits="18" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="451" hits="2" branch="False" />
+            <line number="452" hits="16" branch="False" />
+            <line number="453" hits="20" branch="False" />
+            <line number="455" hits="2" branch="False" />
+            <line number="457" hits="2" branch="False" />
+            <line number="458" hits="2" branch="False" />
+            <line number="460" hits="2" branch="False" />
+            <line number="462" hits="6" branch="False" />
+            <line number="464" hits="2" branch="False" />
+            <line number="465" hits="2" branch="False" />
+            <line number="481" hits="2" branch="False" />
+            <line number="482" hits="2" branch="False" />
+            <line number="485" hits="2" branch="False" />
+            <line number="486" hits="10" branch="False" />
+            <line number="488" hits="2" branch="False" />
+            <line number="489" hits="2" branch="False" />
+            <line number="493" hits="4" branch="False" />
+            <line number="495" hits="2" branch="False" />
+            <line number="496" hits="2" branch="False" />
+            <line number="500" hits="672" branch="False" />
+            <line number="502" hits="2" branch="False" />
+            <line number="503" hits="2" branch="False" />
+            <line number="513" hits="2" branch="False" />
+            <line number="514" hits="2" branch="False" />
+            <line number="517" hits="2" branch="False" />
+            <line number="518" hits="6" branch="False" />
+            <line number="520" hits="2" branch="False" />
+            <line number="521" hits="2" branch="False" />
+            <line number="525" hits="5" branch="False" />
+            <line number="527" hits="2" branch="False" />
+            <line number="528" hits="2" branch="False" />
+            <line number="538" hits="2" branch="False" />
+            <line number="539" hits="2" branch="False" />
+            <line number="542" hits="2" branch="False" />
+            <line number="543" hits="2" branch="False" />
+            <line number="545" hits="2" branch="False" />
+            <line number="546" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="NetworkUtil.NetworkTests/&lt;&gt;c__DisplayClass10_0" filename="source\repos\Snake\NetworkTests\UnitTest1.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="&lt;TestConnectCallsDelegate&gt;g__saveServerState|0" signature="(NetworkUtil.SocketState)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="143" hits="2" branch="False" />
+                <line number="144" hits="2" branch="False" />
+                <line number="145" hits="2" branch="False" />
+                <line number="146" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;TestConnectCallsDelegate&gt;g__saveClientState|1" signature="(NetworkUtil.SocketState)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="149" hits="1" branch="False" />
+                <line number="150" hits="1" branch="False" />
+                <line number="151" hits="1" branch="False" />
+                <line number="152" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="143" hits="2" branch="False" />
+            <line number="144" hits="2" branch="False" />
+            <line number="145" hits="2" branch="False" />
+            <line number="146" hits="2" branch="False" />
+            <line number="149" hits="1" branch="False" />
+            <line number="150" hits="1" branch="False" />
+            <line number="151" hits="1" branch="False" />
+            <line number="152" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="NetworkUtil.NetworkTests/&lt;&gt;c__DisplayClass16_0" filename="source\repos\Snake\NetworkTests\UnitTest1.cs" line-rate="0.9" branch-rate="1" complexity="3">
+          <methods>
+            <method name="&lt;TestChangeOnNetworkAction&gt;g__firstOnNetworkAction|0" signature="(NetworkUtil.SocketState)" line-rate="0.8571" branch-rate="1" complexity="2">
+              <lines>
+                <line number="318" hits="2" branch="False" />
+                <line number="319" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="320" hits="0" branch="False" />
+                <line number="321" hits="2" branch="False" />
+                <line number="322" hits="2" branch="False" />
+                <line number="323" hits="2" branch="False" />
+                <line number="324" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;TestChangeOnNetworkAction&gt;g__secondOnNetworkAction|1" signature="(NetworkUtil.SocketState)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="327" hits="2" branch="False" />
+                <line number="328" hits="2" branch="False" />
+                <line number="329" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="318" hits="2" branch="False" />
+            <line number="319" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="320" hits="0" branch="False" />
+            <line number="321" hits="2" branch="False" />
+            <line number="322" hits="2" branch="False" />
+            <line number="323" hits="2" branch="False" />
+            <line number="324" hits="2" branch="False" />
+            <line number="327" hits="2" branch="False" />
+            <line number="328" hits="2" branch="False" />
+            <line number="329" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="NetworkUtil.NetworkTests/&lt;&gt;c__DisplayClass17_0" filename="source\repos\Snake\NetworkTests\UnitTest1.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="&lt;TestReceiveRemovesAll&gt;g__removeMessage|0" signature="(NetworkUtil.SocketState)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="356" hits="13072" branch="False" />
+                <line number="357" hits="13072" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="358" hits="2" branch="False" />
+                <line number="359" hits="13070" branch="False" />
+                <line number="360" hits="13070" branch="False" />
+                <line number="361" hits="13070" branch="False" />
+                <line number="362" hits="13072" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="356" hits="13072" branch="False" />
+            <line number="357" hits="13072" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="358" hits="2" branch="False" />
+            <line number="359" hits="13070" branch="False" />
+            <line number="360" hits="13070" branch="False" />
+            <line number="361" hits="13070" branch="False" />
+            <line number="362" hits="13072" branch="False" />
+          </lines>
+        </class>
+        <class name="NetworkUtil.NetworkTests/&lt;&gt;c__DisplayClass18_0" filename="source\repos\Snake\NetworkTests\UnitTest1.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="&lt;TestReceiveRemovesPartial&gt;g__removeMessage|0" signature="(NetworkUtil.SocketState)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="405" hits="1316" branch="False" />
+                <line number="406" hits="1316" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="407" hits="2" branch="False" />
+                <line number="408" hits="1314" branch="False" />
+                <line number="409" hits="1314" branch="False" />
+                <line number="410" hits="1314" branch="False" />
+                <line number="411" hits="1314" branch="False" />
+                <line number="412" hits="1316" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="405" hits="1316" branch="False" />
+            <line number="406" hits="1316" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="407" hits="2" branch="False" />
+            <line number="408" hits="1314" branch="False" />
+            <line number="409" hits="1314" branch="False" />
+            <line number="410" hits="1314" branch="False" />
+            <line number="411" hits="1314" branch="False" />
+            <line number="412" hits="1316" branch="False" />
+          </lines>
+        </class>
+        <class name="NetworkUtil.NetworkTests/&lt;&gt;c__DisplayClass8_0" filename="source\repos\Snake\NetworkTests\UnitTest1.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;TestConnectNoServer&gt;g__saveClientState|0" signature="(NetworkUtil.SocketState)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="101" hits="1" branch="False" />
+                <line number="102" hits="1" branch="False" />
+                <line number="103" hits="1" branch="False" />
+                <line number="104" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="101" hits="1" branch="False" />
+            <line number="102" hits="1" branch="False" />
+            <line number="103" hits="1" branch="False" />
+            <line number="104" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="NetworkUtil.NetworkTests/&lt;&gt;c__DisplayClass9_0" filename="source\repos\Snake\NetworkTests\UnitTest1.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;TestConnectTimeout&gt;g__saveClientState|0" signature="(NetworkUtil.SocketState)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="121" hits="1" branch="False" />
+                <line number="122" hits="1" branch="False" />
+                <line number="123" hits="1" branch="False" />
+                <line number="124" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="121" hits="1" branch="False" />
+            <line number="122" hits="1" branch="False" />
+            <line number="123" hits="1" branch="False" />
+            <line number="124" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Vector2D" line-rate="0" branch-rate="0" complexity="40">
+      <classes>
+        <class name="SnakeGame.Vector2D" filename="source\repos\Examples\PS8Skeleton\Vector2D\Vector2D.cs" line-rate="0" branch-rate="0" complexity="40">
+          <methods>
+            <method name="get_X" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Y" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Equals" signature="(System.Object)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="57" hits="0" branch="False" />
+                <line number="59" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="17" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="64" hits="0" branch="False" />
+                <line number="65" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="GetHashCode" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="72" hits="0" branch="False" />
+                <line number="73" hits="0" branch="False" />
+                <line number="74" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="ToString" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="81" hits="0" branch="False" />
+                <line number="82" hits="0" branch="False" />
+                <line number="83" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="ToJson" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="87" hits="0" branch="False" />
+                <line number="88" hits="0" branch="False" />
+                <line number="89" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="GetX" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="96" hits="0" branch="False" />
+                <line number="97" hits="0" branch="False" />
+                <line number="98" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="GetY" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="105" hits="0" branch="False" />
+                <line number="106" hits="0" branch="False" />
+                <line number="107" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Clamp" signature="()" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="113" hits="0" branch="False" />
+                <line number="114" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="20" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="115" hits="0" branch="False" />
+                <line number="116" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="57" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="117" hits="0" branch="False" />
+                <line number="118" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="94" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="119" hits="0" branch="False" />
+                <line number="120" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="131" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="121" hits="0" branch="False" />
+                <line number="122" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Rotate" signature="(System.Double)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="130" hits="0" branch="False" />
+                <line number="131" hits="0" branch="False" />
+                <line number="133" hits="0" branch="False" />
+                <line number="134" hits="0" branch="False" />
+                <line number="136" hits="0" branch="False" />
+                <line number="137" hits="0" branch="False" />
+                <line number="141" hits="0" branch="False" />
+                <line number="142" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="ToAngle" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="150" hits="0" branch="False" />
+                <line number="151" hits="0" branch="False" />
+                <line number="153" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="34" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="154" hits="0" branch="False" />
+                <line number="157" hits="0" branch="False" />
+                <line number="159" hits="0" branch="False" />
+                <line number="160" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="AngleBetweenPoints" signature="(SnakeGame.Vector2D,SnakeGame.Vector2D)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="169" hits="0" branch="False" />
+                <line number="170" hits="0" branch="False" />
+                <line number="171" hits="0" branch="False" />
+                <line number="172" hits="0" branch="False" />
+                <line number="173" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="op_Addition" signature="(SnakeGame.Vector2D,SnakeGame.Vector2D)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="182" hits="0" branch="False" />
+                <line number="183" hits="0" branch="False" />
+                <line number="184" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="op_Subtraction" signature="(SnakeGame.Vector2D,SnakeGame.Vector2D)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="193" hits="0" branch="False" />
+                <line number="194" hits="0" branch="False" />
+                <line number="195" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="op_Multiply" signature="(SnakeGame.Vector2D,System.Double)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="206" hits="0" branch="False" />
+                <line number="207" hits="0" branch="False" />
+                <line number="208" hits="0" branch="False" />
+                <line number="209" hits="0" branch="False" />
+                <line number="210" hits="0" branch="False" />
+                <line number="211" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Length" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="218" hits="0" branch="False" />
+                <line number="219" hits="0" branch="False" />
+                <line number="220" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Normalize" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="226" hits="0" branch="False" />
+                <line number="227" hits="0" branch="False" />
+                <line number="228" hits="0" branch="False" />
+                <line number="229" hits="0" branch="False" />
+                <line number="230" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Dot" signature="(SnakeGame.Vector2D)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="238" hits="0" branch="False" />
+                <line number="239" hits="0" branch="False" />
+                <line number="240" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="IsOppositeCardinalDirection" signature="(SnakeGame.Vector2D)" line-rate="0" branch-rate="0" complexity="10">
+              <lines>
+                <line number="249" hits="0" branch="False" />
+                <line number="250" hits="0" branch="True" condition-coverage="0% (0/10)">
+                  <conditions>
+                    <condition number="16" type="jump" coverage="0%" />
+                    <condition number="33" type="jump" coverage="0%" />
+                    <condition number="48" type="jump" coverage="0%" />
+                    <condition number="65" type="jump" coverage="0%" />
+                    <condition number="82" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="251" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Double,System.Double)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(SnakeGame.Vector2D)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="59" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="17" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="65" hits="0" branch="False" />
+            <line number="72" hits="0" branch="False" />
+            <line number="73" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="81" hits="0" branch="False" />
+            <line number="82" hits="0" branch="False" />
+            <line number="83" hits="0" branch="False" />
+            <line number="87" hits="0" branch="False" />
+            <line number="88" hits="0" branch="False" />
+            <line number="89" hits="0" branch="False" />
+            <line number="96" hits="0" branch="False" />
+            <line number="97" hits="0" branch="False" />
+            <line number="98" hits="0" branch="False" />
+            <line number="105" hits="0" branch="False" />
+            <line number="106" hits="0" branch="False" />
+            <line number="107" hits="0" branch="False" />
+            <line number="113" hits="0" branch="False" />
+            <line number="114" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="20" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="115" hits="0" branch="False" />
+            <line number="116" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="57" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="117" hits="0" branch="False" />
+            <line number="118" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="94" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="119" hits="0" branch="False" />
+            <line number="120" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="131" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="121" hits="0" branch="False" />
+            <line number="122" hits="0" branch="False" />
+            <line number="130" hits="0" branch="False" />
+            <line number="131" hits="0" branch="False" />
+            <line number="133" hits="0" branch="False" />
+            <line number="134" hits="0" branch="False" />
+            <line number="136" hits="0" branch="False" />
+            <line number="137" hits="0" branch="False" />
+            <line number="141" hits="0" branch="False" />
+            <line number="142" hits="0" branch="False" />
+            <line number="150" hits="0" branch="False" />
+            <line number="151" hits="0" branch="False" />
+            <line number="153" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="34" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="154" hits="0" branch="False" />
+            <line number="157" hits="0" branch="False" />
+            <line number="159" hits="0" branch="False" />
+            <line number="160" hits="0" branch="False" />
+            <line number="169" hits="0" branch="False" />
+            <line number="170" hits="0" branch="False" />
+            <line number="171" hits="0" branch="False" />
+            <line number="172" hits="0" branch="False" />
+            <line number="173" hits="0" branch="False" />
+            <line number="182" hits="0" branch="False" />
+            <line number="183" hits="0" branch="False" />
+            <line number="184" hits="0" branch="False" />
+            <line number="193" hits="0" branch="False" />
+            <line number="194" hits="0" branch="False" />
+            <line number="195" hits="0" branch="False" />
+            <line number="206" hits="0" branch="False" />
+            <line number="207" hits="0" branch="False" />
+            <line number="208" hits="0" branch="False" />
+            <line number="209" hits="0" branch="False" />
+            <line number="210" hits="0" branch="False" />
+            <line number="211" hits="0" branch="False" />
+            <line number="218" hits="0" branch="False" />
+            <line number="219" hits="0" branch="False" />
+            <line number="220" hits="0" branch="False" />
+            <line number="226" hits="0" branch="False" />
+            <line number="227" hits="0" branch="False" />
+            <line number="228" hits="0" branch="False" />
+            <line number="229" hits="0" branch="False" />
+            <line number="230" hits="0" branch="False" />
+            <line number="238" hits="0" branch="False" />
+            <line number="239" hits="0" branch="False" />
+            <line number="240" hits="0" branch="False" />
+            <line number="249" hits="0" branch="False" />
+            <line number="250" hits="0" branch="True" condition-coverage="0% (0/10)">
+              <conditions>
+                <condition number="16" type="jump" coverage="0%" />
+                <condition number="33" type="jump" coverage="0%" />
+                <condition number="48" type="jump" coverage="0%" />
+                <condition number="65" type="jump" coverage="0%" />
+                <condition number="82" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="251" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

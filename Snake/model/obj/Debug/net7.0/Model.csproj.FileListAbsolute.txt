@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\Snake\model\bin\Debug\net7.0\Model.deps.json
+C:\Users\Usuario\source\repos\Snake\model\bin\Debug\net7.0\Model.dll
+C:\Users\Usuario\source\repos\Snake\model\bin\Debug\net7.0\Model.pdb
+C:\Users\Usuario\source\repos\Snake\model\bin\Debug\net7.0\Vector2D.dll
+C:\Users\Usuario\source\repos\Snake\model\bin\Debug\net7.0\Vector2D.pdb
+C:\Users\Usuario\source\repos\Snake\model\obj\Debug\net7.0\Model.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\Snake\model\obj\Debug\net7.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\Snake\model\obj\Debug\net7.0\Model.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\Snake\model\obj\Debug\net7.0\Model.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\Snake\model\obj\Debug\net7.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Snake\model\obj\Debug\net7.0\Model.csproj.CopyComplete
+C:\Users\Usuario\source\repos\Snake\model\obj\Debug\net7.0\Model.dll
+C:\Users\Usuario\source\repos\Snake\model\obj\Debug\net7.0\refint\Model.dll
+C:\Users\Usuario\source\repos\Snake\model\obj\Debug\net7.0\Model.pdb
+C:\Users\Usuario\source\repos\Snake\model\obj\Debug\net7.0\ref\Model.dll
