@@ -6,7 +6,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS8Skeleton\\Vector2D\\Vector2D.csproj": "1.0.0",
           "Vector2D": "1.0.0"
         },
         "compile": {
@@ -14,6 +13,16 @@
         },
         "runtime": {
           "bin/placeholder/Model.dll": {}
+        }
+      },
+      "NetworkController/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/NetworkController.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NetworkController.dll": {}
         }
       },
       "Vector2D/1.0.0": {
@@ -31,8 +40,13 @@
   "libraries": {
     "Model/1.0.0": {
       "type": "project",
-      "path": "../model/Model.csproj",
-      "msbuildProject": "../model/Model.csproj"
+      "path": "../Model/Model.csproj",
+      "msbuildProject": "../Model/Model.csproj"
+    },
+    "NetworkController/1.0.0": {
+      "type": "project",
+      "path": "../NetworkController/NetworkController.csproj",
+      "msbuildProject": "../NetworkController/NetworkController.csproj"
     },
     "Vector2D/1.0.0": {
       "type": "project",
@@ -42,8 +56,8 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS7Skeleton\\NetworkController\\NetworkController.csproj",
-      "Model >= 1.0.0"
+      "Model >= 1.0.0",
+      "NetworkController >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -79,11 +93,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS7Skeleton\\NetworkController\\NetworkController.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS7Skeleton\\NetworkController\\NetworkController.csproj"
+            "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Snake\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Snake\\Model\\Model.csproj"
             },
-            "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Snake\\model\\Model.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Snake\\model\\Model.csproj"
+            "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Snake\\NetworkController\\NetworkController.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Snake\\NetworkController\\NetworkController.csproj"
             }
           }
         }
@@ -116,25 +130,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS7Skeleton\\NetworkController\\NetworkController.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS7Skeleton\\NetworkController\\NetworkController.csproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS8Skeleton\\Vector2D\\Vector2D.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS8Skeleton\\Vector2D\\Vector2D.csproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }

@@ -63,8 +63,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\..\..\Snake\GameController\GameController.csproj" />
-	  <ProjectReference Include="..\..\..\Snake\model\Model.csproj" />
-	  <ProjectReference Include="..\..\PS7Skeleton\NetworkController\NetworkController.csproj" />
+	  <ProjectReference Include="..\GameController\GameController.csproj" />
+	  <ProjectReference Include="..\Model\Model.csproj" />
+	  <ProjectReference Include="..\NetworkController\NetworkController.csproj" />
 	</ItemGroup>
 </Project>

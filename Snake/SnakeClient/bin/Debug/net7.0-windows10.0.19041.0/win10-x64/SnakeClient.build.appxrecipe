@@ -10,34 +10,34 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>f52bb242-d868-4921-adcd-b00d740cf8be</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath></WindowsSdkPath>
-    <LayoutDir>C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\SnakeClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\SnakeClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\SnakeClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SnakeClient.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\SnakeClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SnakeClient.runtimeconfig.json">
       <PackagePath>SnakeClient.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SnakeClient.dll">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\SnakeClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SnakeClient.dll">
       <PackagePath>SnakeClient.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>SnakeClient.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SnakeClient.deps.json">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\SnakeClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SnakeClient.deps.json">
       <PackagePath>SnakeClient.deps.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
@@ -691,16 +691,16 @@
     <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Snake\GameController\bin\Debug\net7.0\GameController.dll">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\GameController\bin\Debug\net7.0\GameController.dll">
       <PackagePath>GameController.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Snake\model\bin\Debug\net7.0\Model.dll">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\Model\bin\Debug\net7.0\Model.dll">
       <PackagePath>Model.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Examples\PS7Skeleton\NetworkController\bin\Debug\net7.0\NetworkController.dll">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\NetworkController\bin\Debug\net7.0\NetworkController.dll">
       <PackagePath>NetworkController.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Examples\PS8Skeleton\Vector2D\bin\Debug\net7.0\Vector2D.dll">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\Vector2D\bin\Debug\net7.0\Vector2D.dll">
       <PackagePath>Vector2D.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
@@ -712,34 +712,34 @@
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Core.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.pri">
       <PackagePath>Microsoft.Maui.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\SnakeClient\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\background.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\background.scale-100.png">
       <PackagePath>background.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\wallsprite.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\SnakeClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\wallsprite.scale-100.png">
       <PackagePath>wallsprite.scale-100.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Examples\PS7Skeleton\NetworkController\NetworkController.csproj" />
-    <ProjectReference Include="..\model\Model.csproj" />
+    <ProjectReference Include="..\Model\Model.csproj" />
+    <ProjectReference Include="..\NetworkController\NetworkController.csproj" />
   </ItemGroup>
 
 </Project>

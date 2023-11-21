@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P8d5VCyajV6rsg6HUjOXmlFj7ubBqWobhZLd6DUgqaSBYPWjlqNPwW+BkjLIr2xh0sFGszqRRU9BixSDJlrZYg==",
-  "success": false,
-  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Snake\\model\\Model.csproj",
+  "dgSpecHash": "uAda0/pxOfR8FmU/iGBig3qXgrfW3Fr5/XhukP4kOPy748hC2+6rJtoTV7B5DFmkbK0YQ67ai1zmJ8r8kvMHGA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Snake\\Model\\Model.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS8Skeleton\\Vector2D\\Vector2D.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Usuario\\source\\repos\\BrokeBoys_Game1\\Examples\\PS8Skeleton\\Vector2D\\Vector2D.csproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

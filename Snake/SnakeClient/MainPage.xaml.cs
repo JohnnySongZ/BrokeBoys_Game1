@@ -14,7 +14,7 @@ public partial class MainPage : ContentPage
         InitializeComponent();
         graphicsView.Invalidate();
 
-        //controller.OnMessageArrived += 
+      //  controller.OnMessageArrived +=
     }
 
     void OnTapped(object sender, EventArgs args)

@@ -1,1 +1,1 @@
-C:\Users\Usuario\source\repos\Examples\PS8Skeleton\SnakeClient\SnakeClient.csproj;x64
+C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\SnakeClient\SnakeClient.csproj;x64

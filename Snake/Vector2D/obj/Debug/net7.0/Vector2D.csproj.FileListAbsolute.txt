@@ -1,0 +1,11 @@
+C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\Vector2D\bin\Debug\net7.0\Vector2D.deps.json
+C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\Vector2D\bin\Debug\net7.0\Vector2D.dll
+C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\Vector2D\bin\Debug\net7.0\Vector2D.pdb
+C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\Vector2D\obj\Debug\net7.0\Vector2D.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\Vector2D\obj\Debug\net7.0\Vector2D.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\Vector2D\obj\Debug\net7.0\Vector2D.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\Vector2D\obj\Debug\net7.0\Vector2D.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\Vector2D\obj\Debug\net7.0\Vector2D.dll
+C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\Vector2D\obj\Debug\net7.0\refint\Vector2D.dll
+C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\Vector2D\obj\Debug\net7.0\Vector2D.pdb
+C:\Users\Usuario\source\repos\BrokeBoys_Game1\Snake\Vector2D\obj\Debug\net7.0\ref\Vector2D.dll
